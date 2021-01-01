@@ -40,7 +40,7 @@ p.s. 本 API 只提供**单词和部分短语的释义**, 翻译句子的话还�
 
 ## API 使用说明
 
-其实本来这只是一个 zpk 解析脚本, 但为了使用方便我已经将常用的单词解析好放到了 Github 仓库里, 就成了这个 API.
+其实本来这只是一个 zpk 解析脚本, 但为了使用方便, 我已经将常用的单词解析好放到了 Github 仓库里, 就成了这个 API.
 
 所有的单词数据更新于 2021/1/1, 共 10927 条. 国内建议使用 jsDelivr CDN 访问.
 
@@ -55,7 +55,7 @@ p.s. 本 API 只提供**单词和部分短语的释义**, 翻译句子的话还�
 
 ```json
 {"total": 10927,
- # 下面这个 list 里就是所有单词
+ // 下面这个 list 里就是所有单词
  "list":["a", "b", "c", ...]}
 ```
 
@@ -88,23 +88,23 @@ p.s. 本 API 只提供**单词和部分短语的释义**, 翻译句子的话还�
 
 ```json
 {
-    # 英文单词
+    // 英文单词
 	"word": "average",
-    # 音标
-	"accent": "/\u02c8\u00e6v\u0259r\u026ad\u0292/",
-    # 中文意思
-	"mean_cn": "n.\u5e73\u5747\u6570\uff1b  adj.\u901a\u5e38\u7684\uff1b  vt.\u5e73\u5747\u4e3a",
-    # 英文解释(可能为空字符串, 但绝大多数单词有英文解释.)
+    // 音标
+	"accent": "/ˈævərɪdʒ/",
+    // 中文意思
+	"mean_cn": "n.平均数；  adj.通常的；  vt.平均为",
+    // 英文解释(可能为空字符串, 但绝大多数单词有英文解释.)
 	"mean_en": "the result of adding several amounts together, finding a total, and dividing the total by the number of amounts",
-    # 英文例句(可能为空字符串, 但大部分单词有例句.)
+    // 英文例句(可能为空字符串, 但大部分单词有例句.)
 	"sentence": "His height equals the average of his parents' heights.",
-    # 英文例句翻译
-	"sentence_trans": "\u4ed6\u7684\u8eab\u9ad8\u7b49\u4e8e\u4ed6\u7236\u6bcd\u8eab\u9ad8\u7684\u5e73\u5747\u6570\u3002",
-    # 相关的短语(可能为空字符串)
+    // 英文例句翻译
+	"sentence_trans": "他的身高等于他父母身高的平均数。",
+    // 相关的短语(可能为空字符串)
 	"sentence_phrase": "the average of",
-    # 单词词源(可能为空字符串)
+    // 单词词源(可能为空字符串)
 	"word_etyma": "",
-    # 一些其他数据(可能为空)
+    // 一些其他数据(可能为空)
 	"cloze_data": {
 		"syllable": "av-er-age",
 		"cloze": "av-er-a[ge]",
