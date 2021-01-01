@@ -67,7 +67,7 @@ p.s. 本 API 只提供**单词和部分短语的释义**, 翻译句子的话还�
 
 - URL: https://cdn.jsdelivr.net/gh/lyc8503/baicizhan-word-meaning-API/data/words/[WORD].json
 
-  其中将 [WORD] 是将上面 list 中的**单词或短语中 `/ \ : * ? " < > |` 这些符号**和**短语中的空格**替换为**下划线**之后得到的值.
+  其中 [WORD] 是将上面 list 中的**单词或短语中 `/ \ : * ? " < > |` 这些符号**和**短语中的空格**替换为**下划线**之后得到的值.
 
   获取 [WORD] 的参考代码. (python)
 
