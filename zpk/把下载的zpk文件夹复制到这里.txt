@@ -1,0 +1,4 @@
+程序会遍历整个zpk目录, 所以怎么放无所谓, 只要放进来就行.
+不是zpk后缀的文件也会被直接忽略.
+
+百词斩下载的单词储存位置: 安卓内部储存/Android/data/com.jiongji.android.card/files/baicizhan/zpack
